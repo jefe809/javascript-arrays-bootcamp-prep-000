@@ -6,5 +6,5 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-   return new Array([element, array])
+   return new Array([array, element])
 }
