@@ -20,10 +20,10 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 
 function accessElementInArray(array, index){
-  return index
+  return [index]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  array.unshift
+  array.unshift()
   return array
 }
